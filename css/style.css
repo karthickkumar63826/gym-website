@@ -1,0 +1,111 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#home {
+  background-color: #222222;
+}
+
+.home-img {
+  width: 100%;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #fff;
+}
+
+.title-name{
+  font-family: 'Arvo', serif;
+  font-weight: bolder;
+  font-size: 5.5rem;
+  padding-bottom: 6%;
+}
+
+/* navbar */
+
+.navbar-brand {
+  font-family: 'Arvo', serif;
+  color: #fff;
+  padding-left: 3%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+@media (max-width: 990px){
+.title{
+  top: 25%;
+  left: 5%;
+}
+.navbar-brand{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.title-name{
+    font-size: 2.5rem;
+  }
+}
+
+/* content */
+
+#content{
+  padding: 12% 0 12% 3%;
+  background-color: #222222;
+}
+
+.card{
+  margin: 0 1%;
+  width: 30%;
+}
+
+.card:hover{
+  border: 3px solid black;
+}
+
+/* fees*/
+#fees{
+ background-image: url("images/arnold-gym-home.png");
+ background-color:  #222222;
+}
+
+.transbox {
+  margin:3% 1%;
+
+  background-color: #ffffff;
+  opacity: 0.6;
+  border-radius: 25%;
+  width:30%;
+  text-align: center;
+}
+.fees-structure{
+  padding: 20%;
+}
+
+/* form */
+
+#form{
+  background-color:  black;
+}
+.last-img{
+  width:60%;
+}
+
+.contact{
+  padding: 10%;
+  color: white;
+}
+.address{
+  padding:10%;
+  margin-top: 10%;
+  color: white;
+}
